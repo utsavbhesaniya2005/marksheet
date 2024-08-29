@@ -4,8 +4,8 @@
 }
 body{
     background-color: rgb(88, 90, 91);
-    height: 100vh;
-    padding: 150px;
+    height: 100%;
+    padding: 250px;
 }
 .marksheet{
     background-color: white;
