@@ -6,7 +6,7 @@ var s4 = parseInt(document.getElementById("sub4").innerHTML = "92");
 var s5 = parseInt(document.getElementById("sub5").innerHTML = "100");
 var s6 = parseInt(document.getElementById("sub6").innerHTML = "97");
 var s7 = parseInt(document.getElementById("sub7").innerHTML = "89");
-var s8 = parseInt(document.getElementById("sub8").innerHTML = "78");
+var s8 = parseInt(document.getElementById("sub8").innerHTML = "40");
 
 
 var total = s1 + s2 + s3 + s4 + s5 + s6 + s7;
@@ -32,7 +32,7 @@ for (var i = 1; i <= 8; i++) {
         grade = "D";
     }else{
 
-        grade = "FAIL";
+        grade = "FAIL"; 
     }
     document.getElementById("gra" + i).innerHTML = grade;
 }
@@ -62,4 +62,20 @@ if(per >= 90 && per <= 100){
 }else{
 
     document.getElementById("grade").innerHTML = "FAIL";
+}
+
+if(per >= 50){
+
+    document.getElementById("result").innerHTML = "PASS";
+}else{
+
+    document.getElementById("result").innerHTML = "FAIL";
+}
+
+
+if(s1 <= 50 && s2 <= 50&& s3 <= 50 && s4 <= 50 && s5 <= 50 && s6 <= 50 && s7 <= 50 && s8 <= 50){
+
+    document.getElementById("result").innerHTML = "FAIL";
+    
+    
 }
