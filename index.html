@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+
+    <link rel="stylesheet" href="./bootstrap.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="d-flex align-items-center justify-content-center">
+    
+    <div class="marksheet">
+        <div class="container">
+            <div class="row justify-content-center row-gap-3">
+                <div class="col-2">
+                    <div class="logo me-3">
+                        <img src="./logo.png" class="img-fluid" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="title">
+                        <h1 class="mb-5">Gujrat Secondary & Higher Secondary Education Board</h1>
+                        <h4>Statement Of Marks - Higher Secondary Certificate Examination</h4>
+                    </div>
+                </div>
+                <div class="col-10">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="head">Month & Year of the exam</th>
+                                <th scope="col" class="head">Center No.</th>
+                                <th scope="col" class="head">School Index No</th>
+                                <th scope="col" class="head">Stream</th>
+                                <th scope="col" class="head">Sr.No. Of Statement</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>march-2010</td>
+                                <td>004</td>
+                                <td>01.042</td>
+                                <td>general</td>
+                                <td>603304</td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th scope="col" class="head">Seat No.</th>
+                                <th scope="col" class="head" colspan="4">Canditate's Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>G126615</td>
+                                <td colspan="4">bhesaniya utsav kishorbhai</td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th scope="col" class="head" colspan="2">Name Of The Subject With Code No.</th>
+                                <th scope="col" class="head" style="width: 20px;">Total Marks</th>
+                                <th scope="col" class="head">Marks Obtained</th>
+                                <th scope="col" class="head">Marks Wise Grades</th>
+                            </tr>
+                        </thead>
+                        <tbody class="marks">
+                            <tr>
+                                <td style="text-align: left; padding-left: 25px;" colspan="2">001 gujarti (first lang)</td>
+                                <td>100</td>
+                                <td id="sub1"></td>
+                                <td id="gra1"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding-left: 25px;" colspan="2">013 english  (second lang)</td>
+                                <td>100</td>
+                                <td id="sub2"></td>
+                                <td id="gra2"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding-left: 25px;" colspan="2">022 economics</td>
+                                <td>100</td>
+                                <td id="sub3"></td>
+                                <td id="gra3"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding-left: 25px;" colspan="2">046 org. of comm.</td>
+                                <td>100</td>
+                                <td id="sub4"></td>
+                                <td id="gra4"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding-left: 25px;" colspan="2">135 statistics</td>
+                                <td>100</td>
+                                <td id="sub5"></td>
+                                <td id="gra5"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding-left: 25px;" colspan="2">154 elements of acct.</td>
+                                <td>100</td>
+                                <td id="sub6"></td>
+                                <td id="gra6"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding-left: 25px; padding-bottom: 0 !important;" colspan="2">331 computer (new) - th</td>
+                                <td>100</td>
+                                <td id="sub7"></td>
+                                <td id="gra7"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left; padding-left: 25px; padding-top: 0 !important;" colspan="2">332 computer (new) - pr</td>
+                                <td>100</td>
+                                <td id="sub8"></td>
+                                <td id="gra8"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th scope="col" class="head">total marks obtained</th>
+                                <th scope="col" class="head">Total Marks</th>
+                                <th scope="col" class="head">result</th>
+                                <th scope="col" class="head">percentage</th>
+                                <th scope="col" class="head">grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="total"></td>
+                                <td>700</td>
+                                <td id="result"></td>
+                                <td id="percentage"></td>
+                                <td id="grade"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

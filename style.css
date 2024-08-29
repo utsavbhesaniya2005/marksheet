@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(88, 90, 91);
+    height: 100vh;
+    padding: 150px;
+}
+.marksheet{
+    background-color: white;
+    padding: 25px;
+}
+.title{
+    color: rgb(103, 50, 152);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.title h4{
+    color: rgb(23, 16, 16);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table tr th.head{
+    background-color: #F3EEFD;
+    color: rgb(148, 76, 216);
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.7;
+    border: 2px solid #D1BDCC;
+}
+table tr td{
+    text-align: center;
+    border: 2px solid #D1BDCC;
+    color: rgb(148, 76, 216) !important;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+tbody.marks > tr > td{
+    border-bottom: none;
+    border-top: none;
+}
+.marks > tr:last-child td{
+    border-bottom: 2px solid #D1BDCC;
+}
